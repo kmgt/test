@@ -1,27 +1,23 @@
-<div class="js-sticky">
-  <div class="fh5co-main-nav">
-    <div class="container">
-      <div class="fh5co-menu-1">
+<header class="site-header">
+	<div class="branding">
+		<a href="{{ .Site.BaseURL }}">
+		{{ with .Site.Params.gravatar -}}
+			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt=""/>
+		{{- else -}}
+			<img class="avatar" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt=""/>
+		{{- end }}
+		</a>
+		<h1 class="site-title">
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			{{ range .Site.Menus.nav -}}
+				<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+			{{- end }}
 
-	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="20" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
-
-	{{ if .Site.Params.mission.enable }}
-	<a href="#" data-nav-section="mission">{{ with .Site.Params.nav.mission }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
-
-	{{ if .Site.Params.services.enable }}
-	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
-
-	{{ if .Site.Params.team.enable }}
-	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
-
-	{{ if .Site.Params.contact.enable }}
-	<a href="#" data-nav-section="contact">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
-	
-      </div>
-    </div>
-  </div>
-</div>
+			{{ partial "icons.html" . }}
+		</ul>
+	</nav>
+</header>
