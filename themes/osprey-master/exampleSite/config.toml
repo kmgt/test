@@ -1,9 +1,9 @@
 title = "Osprey Example Site"
-baseURL = "https://1c0in-test.netlify.com"
+baseURL = "https://tomanistor.com"
 tags = ["portfolio", "web design", "blog"]
 languageCode = "en-US"
 config = "config.toml"
-theme = "osprey-master"
+theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "tomanistor"
