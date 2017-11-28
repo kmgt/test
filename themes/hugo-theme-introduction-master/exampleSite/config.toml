@@ -1,7 +1,7 @@
-baseurl             = "https://1c0in-test.netlify.com/"   # Your domain name. Must end with "/"
+baseurl             = "https://introduction.com/"   # Your domain name. Must end with "/"
 languageCode        = "en-us"
 title               = "Introduction"
-theme               = "theme-introduction-master"
+theme               = "introduction"
 enforce_ssl         = false
 builddrafts         = false                         # Include pages with draft status of true
 canonifyurls        = true                          # Turns relative urls into absolute urls
