@@ -1,4 +1,4 @@
-baseurl = "https://1c0in-test.netlify.com"
+baseurl = "https://www.example.com"
 languageCode = "fr-fr"
 title = "my new web site"
 [params]
