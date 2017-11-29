@@ -50,7 +50,6 @@ theme = "hugo-creative-theme-master"
 	[params.about]
 		headline    = "We've got what you need!"
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
 
 
 	# Service section
@@ -77,21 +76,11 @@ theme = "hugo-creative-theme-master"
             title = "Made with Love"
             description = "You have to make your websites with love these days!"
 
+	# News section
+	[params.news]
+		headline    = "お知らせ"
+		description = "ああああああああああああ"
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
-
-    # Aside section
-#	[params.aside]
-#		headline = "Get the Creative Theme for Hugo"
-
-#		[params.aside.button]
-#			text = "Download now"
-#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
