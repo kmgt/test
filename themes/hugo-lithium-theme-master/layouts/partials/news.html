@@ -4,9 +4,9 @@
     <h2 class="archive-title">{{ .Key }}</h2>
     {{ range .Pages }}
     <article class="news-item">
-      <a href="{{ .Permalink }}" class="news-item-link">{{ .Title }}</a>
-      <span class="news-item-date">
         {{ .Date.Format "2006-01-02" }}
+      <span class="news-item-date">
+      <a href="{{ .Permalink }}" class="news-item-link">{{ .Title }}</a>
       </span>
     </article>
     {{ end }}
