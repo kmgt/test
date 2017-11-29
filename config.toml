@@ -1,4 +1,4 @@
-baseurl = "https://1c0in-test.netlify.com"
+baseurl = "https://1c0in-test.netlify.com/"
 languageCode = "ja"
 title = "Lithium Theme"
 theme = "hugo-lithium-theme-master"
