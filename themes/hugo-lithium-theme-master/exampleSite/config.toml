@@ -1,7 +1,9 @@
-baseurl = "https://1c0in-test.netlify.com"
-languageCode = "ja"
+baseurl = "https://example.org"
+languageCode = "en-us"
 title = "Lithium Theme"
-theme = "hugo-lithium-theme-master"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
