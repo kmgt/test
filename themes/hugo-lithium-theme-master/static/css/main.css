@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
-  color: #111;
+  color: #f8f8ff;
 }
 
 a {
@@ -68,24 +68,24 @@ a {
   margin: 0;
   padding: 0;
   font-size: 12px;
-  color: #111;
+  color: #f8f8ff;
   list-style: none;
 }
 
 .nav-links li {
   display: inline-block;
   margin: 0 0 0 15px;
-  color: #111;
+  color: #f8f8ff;
 }
 
 .nav-links li:first-child {
   margin-left: 0;
-  color: #111;
+  color: #f8f8ff;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #f8f8ff;
 }
 
 .nav-links a:hover {
@@ -109,7 +109,7 @@ a {
 }
 
 .article-date {
-  color: #111;
+  color: #f8f8ff;
 }
 
 .article-duration {
@@ -168,7 +168,7 @@ a {
   list-style: none;
   line-height: 1.3em;
   text-align: center;
-  color: #111;
+  color: #f8f8ff;
 }
 
 .news-title {
@@ -182,7 +182,7 @@ a {
 }
 
 .news-item-date {
-  color: #111;
+  color: #f8f8ff;
   font-size: 12px;
   padding: 5px 0;
   margin-top: 5px;
@@ -294,7 +294,7 @@ a {
   .news-item-date {
     font-size: 19px;
     text-align: left;
-    float: left;
+
   }
 
   .article-title {
