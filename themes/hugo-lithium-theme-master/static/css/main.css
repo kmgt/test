@@ -13,6 +13,14 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 
+hr {
+  border:none;
+  border-top:solid 1px #CCC;
+  height:1px;
+  color:#FFFFFF;
+  margin: 0 6 0 6;
+}
+
 h1,
 h2,
 h3,
