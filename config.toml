@@ -4,7 +4,7 @@ title = "testsite"
 theme = "hugo-lithium-theme-master"
 
 [permalinks]
-    post = "/news/:year/:month/:day/:title/"
+    post = "/news/:year:month:day/"
     page = "/:title/"
 
 [params]
