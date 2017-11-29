@@ -158,7 +158,7 @@ a {
   padding: 10px;
 }
 
-.archive {
+.news {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -167,17 +167,17 @@ a {
   color: #111;
 }
 
-.archive-title {
+.news-title {
   font-size: 32px;
   margin-top: 60px;
 }
 
-.archive-item {
+.news-item {
   margin: 5px 0 15px;
   padding: 0;
 }
 
-.archive-item-date {
+.news-item-date {
   color: #ccc;
   font-size: 14px;
   padding: 5px 0;
@@ -185,7 +185,7 @@ a {
   display: block;
 }
 
-.archive-item-link {
+.news-item-link {
   display: inline-block;
   text-decoration: none;
   font-size: 21px;
@@ -196,7 +196,7 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
-.archive-item-link:hover {
+.news-item-link:hover {
   border-bottom-color: #222;
 }
 
@@ -279,15 +279,15 @@ a {
     margin: 40px -20px;
   }
 
-  .archive {
+  .news {
     text-align: left;
   }
 
-  .archive-title {
+  .news-title {
     font-size: 38px;
   }
 
-  .archive-item-date {
+  .news-item-date {
     font-size: 19px;
     text-align: right;
     float: right;
