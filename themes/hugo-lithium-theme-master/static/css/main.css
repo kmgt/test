@@ -109,7 +109,7 @@ a {
 }
 
 .article-date {
-  color: #f8f8ff;
+  color: #111;
 }
 
 .article-duration {
@@ -168,7 +168,7 @@ a {
   list-style: none;
   line-height: 1.3em;
   text-align: center;
-  color: #f8f8ff;
+  color: #111;
 }
 
 .news-title {
