@@ -75,10 +75,12 @@ a {
 .nav-links li {
   display: inline-block;
   margin: 0 0 0 15px;
+  color: #111;
 }
 
 .nav-links li:first-child {
   margin-left: 0;
+  color: #111;
 }
 
 .nav-links a {
