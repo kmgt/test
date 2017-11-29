@@ -1,8 +1,8 @@
 baseurl = "https://1c0in-test.netlify.com/"
-languageCode = "en-us"
+languageCode = "ja"
 title = "Hugo Creative Theme"
 theme = "hugo-creative-theme-master"
-googleAnalytics = ""
+# googleAnalytics = ""
 
 [params]
 
@@ -41,7 +41,7 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Your awesome slogan"
+		slogan     = "あああああ"
 		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
 
@@ -79,19 +79,19 @@ googleAnalytics = ""
 
 
     # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+#	[params.portfolio.modal]
+#        client = "Client"
+#        date = "Date"
+#        category = "Category"
+#        buttonText = "Close"
 
     # Aside section
 	[params.aside]
 		headline = "Get the Creative Theme for Hugo"
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+#		[params.aside.button]
+#			text = "Download now"
+#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
