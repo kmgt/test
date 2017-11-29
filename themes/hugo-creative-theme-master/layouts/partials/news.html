@@ -3,7 +3,7 @@
     {{ with .Site.Params.news.headline }}
         <div class="container">
             <div class="row">
-    {{ range (where .Data.Pages "Type" "post").GroupByDate "2006" }}
+
     <h2 class="archive-title">{{ .Key }}</h2>
     {{ range .Pages }}
     <article class="archive-item">
