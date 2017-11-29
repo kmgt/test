@@ -9,16 +9,16 @@ theme = "hugo-lithium-theme-master"
 
 [[menu.main]]
     name = "お知らせ"
-    url = "../#news/"
+    url = "..#news/"
 [[menu.main]]
     name = "サービス"
-    url = "../#service"
+    url = "..#service"
 [[menu.main]]
     name = "会社概要"
-    url = "../#aboutus"
+    url = "..#aboutus"
 [[menu.main]]
     name = "お問い合わせ"
-    url = "../#contact"
+    url = "..#contact"
 
 [params]
     description = ""
