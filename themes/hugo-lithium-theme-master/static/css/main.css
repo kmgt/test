@@ -207,6 +207,26 @@ a {
   font-family: 'Lato', sans-serif;
 }
 
+.footer-notes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+  font-size: 10px;
+}
+
+.footer-notes li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-notess li::before {
+  content: '/';
+  position: relative;
+  left: -2px;
+}
+
 .footer-links {
   list-style: none;
   margin: 0;
