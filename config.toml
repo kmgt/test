@@ -1,24 +1,11 @@
 baseurl = "https://1c0in-test.netlify.com/"
 languageCode = "ja"
-title = "Lithium Theme"
+title = "L Coin, Inc."
 theme = "hugo-lithium-theme-master"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
-
-[[menu.main]]
-    name = "お知らせ"
-    url = "..#news/"
-[[menu.main]]
-    name = "サービス"
-    url = "..#service"
-[[menu.main]]
-    name = "会社概要"
-    url = "..#aboutus"
-[[menu.main]]
-    name = "お問い合わせ"
-    url = "..#contact"
 
 [params]
     description = ""
