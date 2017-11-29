@@ -8,7 +8,6 @@ enableRobotsTXT = true
     amp = true
     ampElements = ["amp-accordion","amp-ad","amp-analytics","amp-app-banner","amp-carousel","amp-iframe","amp-dynamic-css-classes","amp-form","amp-fx-flying-carpet","amp-image-lightbox","amp-lightbox","amp-sidebar","amp-social-share","amp-sticky-ad","amp-user-notification"]
     themeColor = "#ed6d00"
-    ampManifest = "/amp-manifest.json"
     alternatePageName = "HUGO AMP"
     organizationLogo = "https://gohugo-amp.gohugohq.com/logo.png"
     organizationName = "gohugohq.com"
