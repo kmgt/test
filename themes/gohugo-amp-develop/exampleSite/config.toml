@@ -1,7 +1,7 @@
-baseurl = "https://1c0in-test.netlify.com/"
+baseurl = "https://gohugo-amp.gohugohq.com/"
 languageCode = "en-us"
 title = "gohugo-amp starter theme"
-theme = "gohugo-amp-develop"
+theme = "gohugo-amp"
 enableRobotsTXT = true
 
 [params]
