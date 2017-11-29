@@ -1,7 +1,0 @@
-+++
-date = "2017-12-01"
-title = "Hello"
-
-+++
-
-Hello World!
