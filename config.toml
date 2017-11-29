@@ -1,6 +1,6 @@
 baseurl = "https://1c0in-test.netlify.com/"
 languageCode = "ja"
-title = "L Coin, Inc."
+title = "testsite"
 theme = "hugo-lithium-theme-master"
 
 [permalinks]
