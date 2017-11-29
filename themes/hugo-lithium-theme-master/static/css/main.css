@@ -45,6 +45,7 @@ a {
   padding: 0 15px;
   font-family: 'Lato', sans-serif;
   text-align: right;
+  color: #222;
 }
 
 .nav-logo {
@@ -54,7 +55,7 @@ a {
 }
 
 .nav-logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 .nav-logo img {
@@ -66,7 +67,8 @@ a {
 .nav-links {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
+  color: #111;
   list-style: none;
 }
 
@@ -85,7 +87,7 @@ a {
 }
 
 .nav-links a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .content {
