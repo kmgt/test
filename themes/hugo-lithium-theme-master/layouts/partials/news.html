@@ -1,10 +1,11 @@
 
   <div class="news" id="news">
+    <h2 class="title" style="opacity: 1; transition: all 0.2s ease 0.2s;"><span>お知らせ</span></h2>
     {{ range (where .Data.Pages "Type" "post").GroupByDate "2006" }}
-    <h2 class="archive-title">{{ .Key }}</h2>
+
     {{ range .Pages }}
     <article class="news-item">
-        {{ .Date.Format "2006-01-02" }}
+        {{ .Date.Format "2006-01-02" }}&ensp;
       <a href="{{ .Permalink }}" class="news-item-link">{{ .Title }}</a>
     </article>
     {{ end }}
@@ -12,3 +13,4 @@
   </div>
 
 <hr>
+
