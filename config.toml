@@ -1,4 +1,4 @@
-baseurl = "https://lcoin.jp/"
+baseurl = "https://1c0in-test.netlify.app/"
 languageCode = "ja"
 title = "株式会社エルコイン"
 theme = "hugo-lithium-theme-master"
