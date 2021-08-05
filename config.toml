@@ -1,7 +1,7 @@
 baseurl = "https://1c0in-test.netlify.app/"
 languageCode = "ja"
 title = "株式会社エルコイン"
-theme = "hugo-lithium-theme-master"
+theme = "lcon"
 
 [permalinks]
     post = "/news/:year:month:day/"
@@ -12,6 +12,6 @@ theme = "hugo-lithium-theme-master"
 
     [params.logo]
     url = "logo.png"
-    width = 50
-    height = 50
+    width = 30
+    height = 30
     alt = "Logo"
