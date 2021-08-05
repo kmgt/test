@@ -3,15 +3,3 @@ languageCode = "ja"
 title = "株式会社エルコイン"
 theme = "lcon"
 
-[permalinks]
-    post = "/news/:year:month:day/"
-    page = "/:title/"
-
-[params]
-    description = ""
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
