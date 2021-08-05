@@ -1,6 +1,6 @@
-baseurl = "https://1c0in-test.netlify.com/"
+baseurl = "https://lcoin.jp/"
 languageCode = "ja"
-title = "testsite"
+title = "株式会社エルコイン"
 theme = "hugo-lithium-theme-master"
 
 [permalinks]
@@ -15,4 +15,3 @@ theme = "hugo-lithium-theme-master"
     width = 50
     height = 50
     alt = "Logo"
-
